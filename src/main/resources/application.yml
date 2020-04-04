@@ -9,6 +9,8 @@ spring:
   mvc.view:
     prefix: /WEB-INF/
     suffix: .jsp
+  flyway:
+    baseline-on-migrate: true
 
 logging.level:
   root: WARN
